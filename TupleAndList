@@ -1,0 +1,8 @@
+user_list = input("Enter Comma separated elements to form a list: ")
+
+lst = user_list.split(',')
+
+print("List :", end = '')
+print(lst)
+print("Tuple :", end = '')
+print(tuple(lst))
