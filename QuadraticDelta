@@ -1,0 +1,12 @@
+import math
+
+C, H = 50, 30
+
+D = []
+number = input("Enter the value of D: ")
+D = number.split(',')
+quadratic = []
+
+for i in range(len(D)):
+    quadratic.append(round(math.sqrt((2 * C * int(D[i])) / H)))
+print (quadratic)
