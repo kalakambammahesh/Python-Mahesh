@@ -1,1 +1,10 @@
-number = raw_input()
+def fact(number):
+    
+    if number == 1:
+        return 1
+    
+    return number * fact(number-1)
+
+number = int(input("Enter number to which factorial to find: "))
+result = fact(number)
+print(result)
