@@ -1,0 +1,9 @@
+result = []
+items = [z for z in input('').split(',')]
+
+for item in items:
+    itemp = int(item, 2)
+    if itemp % 2:
+        result.append(item)
+        
+print(result)
