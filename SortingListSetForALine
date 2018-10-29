@@ -1,0 +1,5 @@
+sentence = input("Enter the words")
+
+words = sentence.split(" ")
+
+print(" ".join(sorted(list(set(words)))))
