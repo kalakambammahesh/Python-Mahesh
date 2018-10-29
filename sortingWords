@@ -3,3 +3,12 @@ words = []
 words = raw_word.split(",")
 words.sort()
 print(words)
+
+#-------------------------
+AnotherWay
+
+items = [x for x in input().split(',')]
+
+items.sort()
+
+print(','.join(items))
