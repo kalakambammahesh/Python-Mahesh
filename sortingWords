@@ -1,0 +1,5 @@
+raw_word = input("Enter the words to sort")
+words = []
+words = raw_word.split(",")
+words.sort()
+print(words)
