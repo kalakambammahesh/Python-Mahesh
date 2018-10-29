@@ -1,0 +1,15 @@
+count = {"digits" : 0,
+         "char" : 0}
+s = input("")
+
+for c in s:
+    if c.isdigit():
+        count["digits"] += 1
+    elif c.isalpha():
+        count["char"] += 1
+    else:
+        pass
+
+print(count)
+print(count['digits'])
+print(count['char'])
