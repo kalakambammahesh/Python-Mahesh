@@ -1,0 +1,13 @@
+count = {"upper" : 0, "lower" : 0}
+
+s = input("")
+
+for c in s:
+    if c.isupper():
+        count["upper"] += 1
+    elif c.islower():
+        count["lower"]+= 1
+    else:
+        pass
+
+print(count)
