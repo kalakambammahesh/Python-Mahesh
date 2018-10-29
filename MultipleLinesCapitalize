@@ -1,0 +1,11 @@
+lines = []
+
+while True:
+    string = input("")
+    if string:
+        lines.append(string.upper())
+    else:
+        break
+    
+for line in lines:
+    print(line)
