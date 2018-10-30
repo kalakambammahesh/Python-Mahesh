@@ -1,0 +1,21 @@
+from math import sqrt
+
+values = []
+pos = [0, 0]
+while True:
+    s = input('')
+    if not s:
+        break
+    values = s.split(" ")
+    if values[0] == "UP":
+        pos[0] += int(values[1])
+    elif values[0] == "Down":
+        pos[1] -= int(values[1])
+    elif values[0] == "Left":
+        pos[0] -= int(values[1])
+    elif values[0] == "Right":
+        pos[1] += int(values[1])
+    else:
+        pass
+
+print(sqrt(pos[0]**2 + pos[1]**2))
