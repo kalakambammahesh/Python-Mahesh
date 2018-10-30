@@ -1,0 +1,22 @@
+netAmount = 0
+
+print("Enter the D or W")
+
+while True:
+    s = input("")
+    
+    if not s:
+        break
+    
+    values = s.split(" ")
+    
+    if values[0] == "D":
+        netAmount += int(values[1])
+    
+    elif values[0] == "W":
+        netAmount -= int(values[1])
+        
+    else:
+        pass
+    
+print("Amount", netAmount)
